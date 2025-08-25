@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome!</title>
+    <link rel="stylesheet" href="guessNumber.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"> <!-- Press Start 2P font-style -->
+
+</head>
+<body>
+  <!-- This section introduces the Number Guessing Game to the user.
+    It includes a brief description of the game's objective. -->
+
+    <h1>Number Guessing Game</h1>
+
+    <div class="prgrphCon"><p>Ready to test your luck and logic?
+    The computer has picked a secret number between 1 and 100,
+    and it's your job to guess what it is! After each guess,
+    you’ll get a hint telling you if the number is too high or too low.
+    Can you figure it out in the fewest attempts possible?
+    Jump in and see how close you can get!</p></div>
+
+    <button id="playBtn">Play</button><!-- Allows users to start the game -->
+
+<script>
+  const playBtn=document.getElementById("playBtn");
+
+    playBtn.onclick=function(){
+    window.location.href="play.html";
+}
+</script>
+</body>
+</html>

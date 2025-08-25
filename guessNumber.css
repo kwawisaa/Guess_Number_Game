@@ -1,0 +1,68 @@
+/*General Page Style:
+   -Sets background color for the whole page
+*/
+body{
+    background-color:lavender;
+}
+
+/*Heading Style:
+   -Centered text with retro font
+   -Lemon Chiffon background and pink color
+*/
+h1{
+    font-size:2em;
+    text-align:center;
+    font-family:'Press Start 2P',cursive;
+    background-color:#FFFACD;
+    color:#F4A7B9;
+    margin:0 auto 100px auto; 
+}
+
+/*Paragraph Text Style:
+  -Centered and colored text
+  -Uses a bold sans-serif font
+*/
+p{
+    text-align:center; 
+    color:#F4A7B9;
+    font-family:'Sans Serif'; 
+    font-weight:bold;             
+}
+
+/*Paragraph Container:
+  -Adds padding and centered alignment
+  -Styled border and background for visual emphasis
+*/
+.prgrphCon {
+    font-size:16px;
+    margin:0 auto 50px auto;           
+    max-width:600px;
+    padding:16px;
+    border: 4px ridge#F4A7B9;
+    border-radius: 10px;         
+    background-color:#FFFACD;    
+    text-align:center;
+}
+
+/*Button Container:
+  -Ensures button is centered on the page
+*/
+#playBtn{
+    margin:0 auto;
+    display:block;
+}
+
+/*Button Styling:
+  -Adds padding, rounded corners, and bold text
+  -Styled with soft background and matching colors
+*/
+button{
+    padding:3px 15px;
+    border-radius:5px;
+    font-size:2em;
+    font-family:'Sans Serif';
+    font-weight:bold;
+    background-color:#FFFACD;
+    color:#F4A7B9;
+    border-color:#f0e68e;
+}

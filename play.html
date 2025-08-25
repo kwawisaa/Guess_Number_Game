@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="play.css">
+    <title>Guess the Number</title>
+</head>
+<body>
+    <button id="homeBtn">Home</button>
+
+      <!-- Guess Input Section:
+           -Contains a label, input field, and buttons for submitting and restarting the game -->
+    <div class="lblBtnCon">
+        <label id="lbl">Enter your guess: </label><br><br>
+        <input type="text" id="txt"><br>
+        <button id="submitBtn">submit</button>
+        <button id="restartBtn">restart</button>    
+    </div>
+
+      <!-- Game Progress Section:
+           - Displays current feedback or result of user's guesses -->
+    <div class="gRecordCon">
+        <p id="gRecord">Game Progress</p>
+        <div class="gRecordBox">
+        <p id="rslt"></p>
+        </div>
+    </div>
+    <script src="play.js"></script>
+</body>
+</html>

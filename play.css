@@ -1,0 +1,146 @@
+/*Game Page Style:
+  -Set overall page background and font
+*/
+body{
+    background-color:lavender;
+}
+
+/*Container for label, including buttons, centered with margin
+*/
+.lblBtnCon {
+    text-align:center;
+    margin:30px auto 0 auto; 
+}
+
+/*Input Design:
+  -pink border color
+  -rounded shape
+  -fixed-size
+  -font-size & font-style for input
+*/
+input{
+    border-radius:15px;
+    border-color:#F4A7B9;
+    color:#F4A7B9;
+    text-align:center;
+    height:30px;
+    font-size:1.5em;
+    font-family:'Sans-serif';
+    font-weight:bold;
+}
+
+/*Button Design:
+  -fixed-size
+  -pink background color 
+  -yellow border
+  -fixed radius
+  -font-size & font-style for button text
+*/
+button{
+    height:40px;
+    width:90px;
+    border-radius:5px;
+    padding:5px 10px;
+    margin-top:30px;
+    border-color:#f0e68e;
+    background-color:#FFFACD;
+    color:#F4A7B9;
+    font-family:'Sans-Serif';
+    font-weight:bold;
+    font-size:1em;
+}
+
+/*Label Design:
+  -font-size & font-style for labels
+  -color pink text
+*/
+label{
+    font-family:'Sans-serif';
+    font-size:2em;
+    font-weight:bold;
+    color:#F4A7B9;
+}
+
+/*Submit Button Fixed Position:
+*/
+#submitBtn{
+    margin-right:10px;
+}
+
+/*Restart Button Fixed Position:
+*/
+#restartBtn{
+    margin-left:10px;
+}
+
+/*Home Button:
+  -fixed-size
+  -centered
+*/
+#homeBtn{
+  width:90px;
+  height:40px;
+  margin:0 auto;
+  display:block;
+}
+
+button:hover{
+  background-color:whitesmoke;
+}
+
+/*Game Progress Result Text:
+  -centered alaigned to the container
+  -font-size & font-style
+  -color pink text
+*/
+p{
+    vertical-align:middle;
+    display:inline-block;
+    font-family:'Sans-serif';
+    font-weight:bold;
+    color:#F4A7B9;
+}
+
+/* Game Progress Label Design:
+  -font-size & font-style
+  -color pink text
+*/
+#gRecord{
+    font-family:'Sans-serif';
+    font-weight:bold;
+    font-size:2em;
+    color:#F4A7B9;
+}
+
+/*Game Progress Label Design and Game Progress Result Text:
+  -centered 
+  -color pink text
+  -font-size & font-style
+*/
+.gRecordCon{
+    text-align:center;
+    margin:0 auto;
+    color:#F4A7B9;
+    font-family:'Sans-serif';
+    font-size:1em;
+    font-weight:bold;
+}
+
+/*Record Box Design:
+  -centered & fixed position
+  -fixed-size
+  -font-size for its record text
+  -text-position
+*/
+.gRecordBox{
+    margin:0 auto;
+    width:300px;
+    height:200px;
+    font-size:1.5em;
+    background-color:#FFFACD;
+    align-items:center;
+    text-align:center;
+    justify-content:center;
+    display:flex;
+}
+
